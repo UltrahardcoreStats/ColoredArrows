@@ -16,9 +16,6 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.FireworkMeta;
 import org.bukkit.metadata.FixedMetadataValue;
 
-/**
- * Created by Taylor on 12/15/13.
- */
 public class ProjectileLaunchListener implements Listener {
 
     private ColoredArrowsPlugin plugin;

@@ -13,7 +13,7 @@ public class ColoredArrowsUtil {
 
     }
 
-    public static boolean ensureColoredFirework(ColoredArrowsPlugin plugin, Entity entity) {
+    public static boolean isColoredFirework(ColoredArrowsPlugin plugin, Entity entity) {
         if(!(entity instanceof Arrow)) return false;
 
         Arrow arrow;
