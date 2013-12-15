@@ -25,7 +25,7 @@ public class ColoredArrowsPlugin extends JavaPlugin implements Listener {
 
     @Override
     public void onDisable() {
-        this.saveConfig();
+
     }
 
     @Override
