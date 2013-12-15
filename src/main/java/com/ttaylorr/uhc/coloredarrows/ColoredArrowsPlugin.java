@@ -25,12 +25,14 @@ public class ColoredArrowsPlugin extends JavaPlugin implements Listener {
 
     @Override
     public void onDisable() {
-
+        this.saveConfig();
     }
 
     @Override
     public void onEnable() {
         instance = this;
+
+        this.saveDefaultConfig();
 
         this.getServer().getPluginManager().registerEvents(new ProjectileLaunchListener(this), this);
         this.getServer().getPluginManager().registerEvents(new ProjectileLandListener(this), this);
